@@ -1,16 +1,7 @@
 import React from "react";
-import {
-  S,
-  Text,
-  Fill,
-  Heading,
-  ListItem,
-  List,
-  Layout
-} from "spectacle";
+import { S, Text, Fill, Heading, ListItem, List, Layout } from "spectacle";
 
 const Column = ({ items, title, trailer }) => (
-  // <div style={{flex: 1, margin: ".5rem"}}>
   <Fill>
     <Heading size={4} textColor="tertiary">
       {title}
@@ -56,7 +47,10 @@ export const CompareSlide = () => (
           lineHeight={2}
           textColor="secondary"
         >
-          <span role="img" aria-label="Finger pointing to the next text">👉🏼</span> Fits to <S type="bold">OOP</S>
+          <span role="img" aria-label="Finger pointing to the next text">
+            👉🏼
+          </span>{" "}
+          Fits to <S type="bold">OOP</S>
         </Text>
       </Fill>
       <Fill>
@@ -65,7 +59,10 @@ export const CompareSlide = () => (
           lineHeight={2}
           textColor="secondary"
         >
-          <span role="img" aria-label="Finger pointing to the next text">👉🏼</span> Fits to <S type="bold">FP</S>
+          <span role="img" aria-label="Finger pointing to the next text">
+            👉🏼
+          </span>{" "}
+          Fits to <S type="bold">FP</S>
         </Text>
       </Fill>
     </Layout>

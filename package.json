@@ -16,7 +16,8 @@
   },
   "husky": {
     "hooks": {
-      "pre-commit": "npm run build && precise-commits"
+      "pre-commit": "precise-commits",
+      "pre-push": "npm run build"
     }
   },
   "eslintConfig": {
