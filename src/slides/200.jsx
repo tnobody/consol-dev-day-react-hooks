@@ -1,5 +1,5 @@
 import React from "react";
-import { Slide, Text, Fill, Heading, Fit } from "spectacle";
+import { Text, Heading, Fit } from "spectacle";
 
 export const WayToHooksSlide = () => (
   <>

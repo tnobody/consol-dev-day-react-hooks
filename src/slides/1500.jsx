@@ -1,10 +1,11 @@
 import React from "react";
-import { Slide, Text, List, Link, ListItem, Appear, Heading } from "spectacle";
+import { List, ListItem, Appear, Heading } from "spectacle";
 
 export const CriticsSlide = () => (
   <>
     <Heading size={4} textColor="tertiary">
-      🤬 Critics on hooks
+      <span role="img" aria-label="Angry emoticon">🤬</span>
+      Critics on hooks
     </Heading>
     <List>
       <Appear>
@@ -26,7 +27,7 @@ export const CriticsSlide = () => (
 export const AdvantageSlide = () => (
   <>
     <Heading size={4} textColor="tertiary">
-      🥰 Advantages
+      <span role="img" aria-label="Beloved emoticon">🥰</span> Advantages
     </Heading>
     <List>
       <Appear>
@@ -41,7 +42,7 @@ export const AdvantageSlide = () => (
         </ListItem>
       </Appear>
       <Appear>
-        <ListItem>Potentially easier refactorings</ListItem>
+        <ListItem>Potentially easier refactoring</ListItem>
       </Appear>
     </List>
   </>

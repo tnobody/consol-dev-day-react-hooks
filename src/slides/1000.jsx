@@ -1,16 +1,7 @@
 import React from "react";
 import {
-  Slide,
-  Fill,
   CodePane,
-  Heading,
-  Text,
-  Link,
-  List,
-  ListItem,
-  Code,
-  Layout
-} from "spectacle";
+  Heading} from "spectacle";
 
 export const ReuseHooks = () => (
   <>

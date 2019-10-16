@@ -1,16 +1,8 @@
 import React from "react";
 import {
-  Slide,
   Fill,
-  CodePane,
   Heading,
-  Text,
-  Link,
-  List,
-  ListItem,
-  Code,
-  ComponentPlayground
-} from "spectacle";
+  Link} from "spectacle";
 
 export const FirstHookPlaygroundSlide = () => (
   <>
@@ -18,6 +10,7 @@ export const FirstHookPlaygroundSlide = () => (
       Using state in functional components
     </Heading>
     <iframe
+      title="Stackblitz playgorund"
       style={{
         width: "50vw",
         height: "50vh",

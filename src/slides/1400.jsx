@@ -1,5 +1,5 @@
 import React from "react";
-import { Slide, Text, List, Link, CodePane, Appear, Heading } from "spectacle";
+import { Text, CodePane, Appear, Heading } from "spectacle";
 
 export const ReduxSlide = () => (
   <>

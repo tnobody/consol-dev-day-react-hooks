@@ -1,12 +1,9 @@
 import React from "react";
 import {
   S,
-  Slide,
   Text,
-  Appear,
   Fill,
   Heading,
-  Fit,
   ListItem,
   List,
   Layout
@@ -59,7 +56,7 @@ export const CompareSlide = () => (
           lineHeight={2}
           textColor="secondary"
         >
-          👉🏼 Fits to <S type="bold">OOP</S>
+          <span role="img" aria-label="Finger pointing to the next text">👉🏼</span> Fits to <S type="bold">OOP</S>
         </Text>
       </Fill>
       <Fill>
@@ -68,7 +65,7 @@ export const CompareSlide = () => (
           lineHeight={2}
           textColor="secondary"
         >
-          👉🏼 Fits to <S type="bold">FP</S>
+          <span role="img" aria-label="Finger pointing to the next text">👉🏼</span> Fits to <S type="bold">FP</S>
         </Text>
       </Fill>
     </Layout>

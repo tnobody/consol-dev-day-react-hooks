@@ -1,5 +1,5 @@
 import React from "react";
-import { Slide, Text, List, Link, ListItem, Appear, Heading } from "spectacle";
+import { Text, List, Link, ListItem, Appear, Heading } from "spectacle";
 
 export const HooksAPISlide = () => (
   <>

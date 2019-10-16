@@ -1,5 +1,5 @@
 import React from "react";
-import { Slide, Heading, List, ListItem, S } from "spectacle";
+import { Heading, List, ListItem, S } from "spectacle";
 
 export const BringStateToFCSlide = () => (
   <>

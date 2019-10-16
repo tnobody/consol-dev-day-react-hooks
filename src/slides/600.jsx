@@ -1,14 +1,11 @@
 import React from "react";
 import {
-  Slide,
   CodePane,
-  Heading,
   Text,
   List,
   ListItem,
   Code
 } from "spectacle";
-import CodeSlide from "spectacle-code-slide";
 
 export const FirstHookSlide = () => (
   <>

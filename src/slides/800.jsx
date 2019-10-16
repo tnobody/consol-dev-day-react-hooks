@@ -1,10 +1,10 @@
 import React from "react";
-import { CodePane, Heading, Text } from "spectacle";
+import { CodePane, Heading } from "spectacle";
 
 export const HowItWorks = () => (
   <>
     <Heading size={4} textColor="tertiary">
-      There is no 🧙 behind Hooks
+      There is no <span role="img" aria-label="magic">🧙</span> behind Hooks
     </Heading>
     <CodePane source={require("../samples/hook-magic.js.txt")} lang="js" />
   </>

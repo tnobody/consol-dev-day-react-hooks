@@ -1,5 +1,5 @@
 import React from "react";
-import { Slide, Appear, Text, Fill, Heading, Fit } from "spectacle";
+import { Slide, Appear, Heading } from "spectacle";
 
 export const WhatsMissingInFCSlide = () => (
   <Slide>
