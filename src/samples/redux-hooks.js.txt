@@ -1,0 +1,10 @@
+export const TodoListItem = ({id}) => {
+  const todo = useSelector(state => state.todos[id])
+  const disptach = useDispatch();
+  return (
+    <div>
+        <div>{todo.text}</div>
+        <button onClick={e => dispatch({type: 'DELETE', id})}>X</button>
+    </div>
+  )
+}

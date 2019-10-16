@@ -1,0 +1,17 @@
+let hooks = null;
+
+// Pseudo Hook
+export function useHook() {
+    // Adding data to hooks queue
+    hooks.push(hookData);
+}
+
+export function internalReactComponentRendering(component) {
+    hooks = []; // init empty queue
+    component(); // run component (might call useHook)
+    // flushing hooks queue
+    let hooksForThisComponent = hooks;
+    hooks = null;
+    // now the render can further process
+    // data from hooks and component
+}

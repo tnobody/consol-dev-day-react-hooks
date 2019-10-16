@@ -1,0 +1,12 @@
+export function useGet(url) {
+    const [response, setResponse] = useState(null);
+    const load = () => fetch(url)
+        .then(r => r.json())
+        .then(json => setResponse(json));
+
+    useEffect(() => {
+        load()
+    }, [url]);
+
+    return [response, load];
+}

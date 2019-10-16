@@ -1,0 +1,13 @@
+import React from 'react'
+
+const CounterButton = ({count, onIncrement}) => {
+
+  const [count, setCount] = useState(0);
+
+  return (
+    <button
+      onClick={e => setCount(count + 1)}
+      value={count}
+    />
+  );
+};

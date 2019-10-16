@@ -1,0 +1,9 @@
+export const DisplayScore = () => {
+    const [scores, reload] = useGet('api.livescore.com/');
+    return (
+        <div>
+            TeamA {scores.teamA} : {scores.teamB} TeamB
+            <button onClick={e => reload()} >🔃</button>
+        </div>
+    )
+}
